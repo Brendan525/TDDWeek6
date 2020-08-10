@@ -9,21 +9,21 @@ namespace TDDWeek6.Tests
     public class ProductTests
     {
 
-        //[Fact]
-        //public void AddABook()
-        //{
-        //    List<Product> comicBookList = new List<Product>();
+        [Fact]
+        public void AddABook()
+        {
+            List<Product> comicBookList = new List<Product>();
 
-        //    comicBookList.Add(new Product("Spiderman", "Book", "Thwip", (decimal)3.99));
+            comicBookList.Add(new Product("Spiderman", "Book", "Thwip", (decimal)3.99));
 
-        //    Dictionary<Product, int> comicBookCart = new Dictionary<Product, int>();
+            Dictionary<Product, int> comicBookCart = new Dictionary<Product, int>();
 
-        //    comicBookCart[comicBookList[0]] = 3;
+            comicBookCart[comicBookList[0]] = 3;
 
-        //    Dictionary<Product, int> cartResult = Cart.AddToCart(comicBookList[0], 3);
+            Dictionary<Product, int> cartResult = Cart.AddToCart(comicBookList[0], 3);
 
-        //    Assert.Equal(comicBookCart, cartResult);
-        //}
+            Assert.Equal(comicBookCart, cartResult);
+        }
 
         //[Fact]
         //public void CalculateSubTotalTest()
